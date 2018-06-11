@@ -1,0 +1,49 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox lesson</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <style>
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .col-4{
+            box-sizing: border-box;
+            flex-basis: 33.33333%;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .card{
+            background-color: antiquewhite;
+            border: 1px solid rgba(72,72,72,0.2);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <p>Homes</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <p>Experiences</p>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+            <p>Restauraunt</p>
+            </div>
+        </div>
+        <div class="col-4">
+                <div class="card">
+                <p>Homes 2</p>
+                </div>
+        </div>
+    </div>                        
+</body>
+</html>
